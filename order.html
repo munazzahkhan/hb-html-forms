@@ -25,14 +25,12 @@
         <h2>Order Form</h2>
 
         <form>
-
-            <input type="text" name="name">
-                Your name
-
-            <input type="text" name="recipient">
-                Who are we sending this to?
-
-            <select name="Choose a melon">
+            Your name
+            <input type="text" name="name"><br>
+            Who are we sending this to?
+            <input type="text" name="recipient"><br>
+            <select name="melon">
+                Choose a melon
                 <option value="Watermleon">Watermelon</option>
                 <option value="Canteloupe">Canteloupe</option>
                 <option value="Honeydew">Honeydew</option>
@@ -48,15 +46,15 @@
                 <input type="radio" name="time" value="any">
                 <label>Any time</label>
             </select>
-            
+
+            <p>Enter your message:</p>
+        
             <textarea name="message">
-                Enter your message:
-            </textarea>
+            </textarea><br>
 
             Subscribe to our newsletter
-            <checkbox name="subscribe" value="yes">
+            <input type="checkbox" name="subscribe" value="yes">
                 Yes
-            </checkbox>
             <input type="submit">
         </form>
     </body>>
